@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "dev.fritz2"
-version = "1.0"
+version = "1.0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ repositories {
 }
 
 application {
-    mainClassName = "app.backend.ServerKt"
+    mainClass.set("app.backend.ServerKt")
 }
 
 kotlin {
